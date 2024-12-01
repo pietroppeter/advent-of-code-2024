@@ -1,1 +1,2 @@
-integer
+pair = record2_sep($"left", int, "   ", $"right", int)
+array_sep(pair, nl)
