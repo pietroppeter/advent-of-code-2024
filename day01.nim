@@ -1,4 +1,4 @@
-import std / [algorithm, sugar]
+import std / [algorithm, sugar, tables]
 import jsony
 
 ## parsing with possum
@@ -19,8 +19,19 @@ for pair in input:
 sort left
 sort right
 
+## solve part1
 var part1 = 0
 for i in left.low .. left.high:
   part1 += abs(left[i] - right[i])
 
 dump part1
+
+## part2 is a twist
+let counts = right.toCountTable
+var part2 = 0
+for n in left:
+  part2 += n*counts[n]
+
+dump part2
+
+
