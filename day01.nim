@@ -1,4 +1,4 @@
-import batteries
+import std / [algorithm, sugar]
 import jsony
 
 ## parsing with possum
