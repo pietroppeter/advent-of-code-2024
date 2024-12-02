@@ -1,0 +1,2 @@
+report = array_sep(int, " ")
+array_sep(report, nl)
