@@ -1,6 +1,6 @@
-# advent-of-code-2025
+# advent-of-code-2024
 
-Code and thoughts for AoC 2025
+Code and thoughts for AoC 2024
 
 Parsing done with [possum](https://github.com/mulias/possum_parser_language), see [puzzling with possum](https://mulias.github.io/blog/puzzling-with-possum-pt1/).
 
