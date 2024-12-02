@@ -24,10 +24,10 @@ for report in input:
 
 dump part1
 
+# damp a specific level
 func damp(report: Report, i: int): Report =
   report[0 ..< i] & report[(i + 1) .. report.high]
 
-# is a report safe
 func isSafeWithDampener(report: Report): bool =
   if isSafe(report):
     return true
@@ -36,7 +36,7 @@ func isSafeWithDampener(report: Report): bool =
       return true
   return false
 
-# solve part1
+# solve part2
 var part2 = 0
 for report in input:
   if report.isSafeWithDampener:
