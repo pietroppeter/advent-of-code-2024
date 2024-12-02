@@ -23,3 +23,23 @@ for report in input:
     part1 += 1
 
 dump part1
+
+func damp(report: Report, i: int): Report =
+  report[0 ..< i] & report[(i + 1) .. report.high]
+
+# is a report safe
+func isSafeWithDampener(report: Report): bool =
+  if isSafe(report):
+    return true
+  for i in report.low .. report.high:
+    if isSafe(report.damp(i)):
+      return true
+  return false
+
+# solve part1
+var part2 = 0
+for report in input:
+  if report.isSafeWithDampener:
+    part2 += 1
+
+dump part2
