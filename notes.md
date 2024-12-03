@@ -1,3 +1,9 @@
+## day 3
+
+- possum `scan` is renamed to `find` but my version still uses `scan`
+
+this was fun, I enjoyed learning a more advanced pattern for possum
+
 ## day 1
 
 - set up repo [x]

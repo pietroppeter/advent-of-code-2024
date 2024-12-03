@@ -1,0 +1,4 @@
+mul = "mul(" > tuple2_sep(int, ",", int) -> Args < ")" $ {"op": "mul", "args": Args}
+do = "do()" $ {"op": "do", "args": []}
+dont = "don't()" $ {"op": "dont", "args": []}
+array(scan(mul | do | dont))
