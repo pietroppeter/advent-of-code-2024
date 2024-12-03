@@ -17,4 +17,6 @@ the most important part in apply OR techniques in the Industry is the focus on
 constraints and as such on feasibility of the solution.
 Contrast with the traditional approach in the Academy where the focus is on Optimality.
 
+**day 3 update**: skipping the feasibility thoughts and going with a parsing thoughts. I think the thoughts sections will become something with variable content.
+
 [OR]: https://en.wikipedia.org/wiki/Operations_research

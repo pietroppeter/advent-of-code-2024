@@ -1,6 +1,7 @@
 ## day 3
 
 - possum `scan` is renamed to `find` but my version still uses `scan`
+- part2 more involved and I made a separate 03_2.possum file
 
 this was fun, I enjoyed learning a more advanced pattern for possum
 
