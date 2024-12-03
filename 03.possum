@@ -1,0 +1,2 @@
+op = "mul(" > tuple2_sep(int, ",", int) < ")"
+array(scan(op))
