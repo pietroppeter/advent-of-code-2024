@@ -1,4 +1,4 @@
-import std / [strutils, sequtils, options]
+import std / [strutils, sequtils]
 
 let test = """
 MMMSXXMASM
