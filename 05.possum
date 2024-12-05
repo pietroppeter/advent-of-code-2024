@@ -1,0 +1,6 @@
+input
+rule = tuple2_sep(int, "|", int)
+rules = array_sep(rule, nl)
+update = array_sep(int, ",")
+updates = array_sep(update, nl)
+input = record2_sep($"rules", rules, nl + nl, $"updates", updates)

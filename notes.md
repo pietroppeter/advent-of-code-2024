@@ -1,3 +1,7 @@
+## day 5
+
+- reported panic in possum: https://github.com/mulias/possum_parser_language/issues/18 (see bug1.possum)
+
 ## day 3
 
 - possum `scan` is renamed to `find` but my version still uses `scan`
