@@ -148,4 +148,4 @@ proc part2(map: Map, guard: Guard): int =
 
 echo part2(tMap, tGuard)
 when not defined(dbg):
-  echo part2(map, guard) # 437 not right answer, 436 either, too low!
+  echo part2(map, guard) # 437 not right answer, 436 either, too low!, tried also 438
