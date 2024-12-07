@@ -1,0 +1,3 @@
+array_sep(equation, nl)
+equation = record2_sep($"test", int, ": ", $"numbers", numbers)
+numbers = array_sep(int, " ")

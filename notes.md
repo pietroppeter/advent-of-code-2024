@@ -1,3 +1,20 @@
+## day 7
+
+possum example with typo
+
+```
+equation
+equation = record2_sep(f"test", int, ": ", $"numbers", numbers)
+numbers = array_sep(int, " ")
+```
+
+suboptimal error message
+
+```
+[Line 2, 24-30] Error at '"test"': Expected closing ')'
+error: UnexpectedInput
+```
+
 ## day 5
 
 - reported panic in possum: https://github.com/mulias/possum_parser_language/issues/18 (see bug1.possum)
