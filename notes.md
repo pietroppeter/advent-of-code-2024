@@ -1,5 +1,7 @@
 ## day 7
 
+- a gratuitous error on part1 (check that sum of all > test, fails on inputs which contain a 1 and are satisfiable with 1 being multiplied)
+
 possum example with typo
 
 ```
