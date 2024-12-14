@@ -1,0 +1,5 @@
+array_sep(robot, nl)
+robot = record2_sep($"pos", pos, " ", $"vel", vel)
+vel = "v=" > xy
+pos = "p=" > xy
+xy = record2_sep($"x", int, ",", $"y", int) 
