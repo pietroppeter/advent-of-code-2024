@@ -1,0 +1,6 @@
+array_sep(machine, nl + nl)
+machine = buttonA -> A & nl & buttonB -> B & nl & prize -> P $ {"buttA": A, "buttB": B, "prize": P}
+button = ": X+" & int -> Dx & ", Y+" & int -> Dy $ {"x": Dx, "y": Dy}
+buttonA = "Button A" & button
+buttonB = "Button B" & button
+prize = "Prize: X=" & int -> X & ", Y=" & int -> Y $ {"x": X, "y": Y}
